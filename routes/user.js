@@ -1,5 +1,5 @@
 const express = require("express"); // import du package express
-const SHA256 = require("crypto-js/SHA256");
+const SHA256 = require("crypto-js/sha256");
 const encBase64 = require("crypto-js/enc-base64");
 const uid = require("uid2");
 
